@@ -15,6 +15,17 @@ const options = {
   ],
   xaxis: {
     categories: ["Mon", "Tues", "Weds", "Thurs", "Fri", "Sat", "Sun"]
+  },
+  plotOptions: {
+    bar: {
+      horizontal: false
+    }
+  },
+  fill: {
+    colors: ["#feb72b"]
+  },
+  dataLabels: {
+    enabled: false
   }
 };
 
