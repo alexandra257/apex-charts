@@ -26,6 +26,15 @@ const options = {
   },
   dataLabels: {
     enabled: false
+  },
+  title: {
+    text: "Minutes Meditated Daily",
+    align: "center",
+    margin: 20,
+    offsetY: 20,
+    style: {
+      fontSize: "25px"
+    }
   }
 };
 
